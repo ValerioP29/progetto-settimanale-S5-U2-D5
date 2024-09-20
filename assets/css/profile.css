@@ -91,15 +91,3 @@ button:hover {
 .btn-delete {
   width: 30%;
 }
-
-.btn-save {
-  background-color: #28a745;
-}
-
-.btn-cancel {
-  background-color: #ffc107;
-}
-
-.btn-delete {
-  background-color: #dc3545;
-}
