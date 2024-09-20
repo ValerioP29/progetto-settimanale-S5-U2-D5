@@ -43,7 +43,7 @@ a.list-item {
   flex: 1;
   padding: 0 15px;
 }
-it-footer-main .col-lg-3,
+.it-footer-main .col-lg-3,
 .it-footer-main .col-md-3,
 .it-footer-main .col-sm-6 {
   flex: 0 0 auto;
@@ -55,4 +55,5 @@ it-footer-main .col-lg-3,
 }
 .par {
   font-size: 0.5rem;
+  padding-block: 1rem;
 }
