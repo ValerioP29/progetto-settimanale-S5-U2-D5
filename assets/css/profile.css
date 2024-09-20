@@ -61,10 +61,7 @@ input::placeholder {
 }
 
 button {
-  background-color: #555;
-  color: white;
-  border: none;
-  padding: 10px 15px;
+  padding: 5px;
 }
 
 button:hover {
@@ -90,4 +87,12 @@ button:hover {
 .btn-cancel,
 .btn-delete {
   width: 30%;
+}
+.btn-cancel {
+  background-color: black;
+  color: white;
+}
+.btn-delete {
+  background-color: black;
+  color: white;
 }
