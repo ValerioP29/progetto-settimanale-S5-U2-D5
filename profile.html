@@ -14,22 +14,22 @@
   </head>
   <body>
     <div class="container">
-      <h2 class="fw-light">Edit Profile</h2>
+      <h2 class="fw-light text-center">Edit Profile</h2>
 
-      <div class="d-flex align-items-center mt-4">
-        <div class="profile-icon d-flex justify-content-center align-items-center">
+      <div class="d-flex align-items-center mt-4 profile-section">
+        <div class="profile-icon d-flex justify-content-center align-items-center mb-3">
           <img src="https://via.placeholder.com/100" alt="Profile Icon" class="img-fluid" />
           <i class="bi bi-pencil-fill text-white"></i>
+        </div>
 
-          <div class="ms-3 d-flex align-items-center">
-            <input type="text" class="form-control p-4" value="Strive Student" />
-          </div>
+        <div class="ms-3 d-flex align-items-center flex-grow-1">
+          <input type="text" class="form-control pt-2" value="Strive Student" />
         </div>
       </div>
 
       <div class="mt-4">
-        <label for="language" class="form-label">Language:</label>
-        <select class="form-select" id="language">
+        <label for="language" class="label form-label bg-secondary text-white p-2">Language:</label>
+        <select class="form-select mt-2" id="language">
           <option selected>English</option>
           <option value="1">Italian</option>
           <option value="2">Spanish</option>
@@ -38,14 +38,14 @@
       </div>
 
       <div class="mt-4">
-        <label class="form-label">Maturity Settings:</label>
-        <button class="btn btn-dark w-100 mb-2">ALL MATURITY RATINGS</button>
+        <label class="form-label label bg-secondary text-white p-2">Maturity Settings:</label>
+        <button class="btn btn-dark w-100 mt-2">ALL MATURITY RATINGS</button>
         <p>Show titles of all maturity ratings for this profile.</p>
         <button class="btn btn-secondary w-100" disabled>Edit</button>
       </div>
 
       <div class="mt-4">
-        <label class="form-label">Autoplay controls</label>
+        <label class="form-label">Autoplay controls:</label>
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="autoplay1" checked />
           <label class="form-check-label" for="autoplay1"> Autoplay next episode in a series on all devices. </label>
